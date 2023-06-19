@@ -149,6 +149,3 @@ Feedstock Maintainers
 
 * [@castelao](https://github.com/castelao/)
 
-
-<!-- dummy commit to enable rerendering -->
-
