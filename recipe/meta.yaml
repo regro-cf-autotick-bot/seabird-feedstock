@@ -10,7 +10,7 @@ source:
   sha256: cdcdb2d5a5d599660aa01593533e97c19b393a3ffe04a7b182b2d0aa738fdffb
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - seabird=seabird.cli:cli
   script: "{{ PYTHON }} -m pip install . -vv"
@@ -19,12 +19,12 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - click >=6.6
     - numpy >=1.14
     - setuptools >=49.1
-    - python
+    - python >=3.6
 
 test:
   imports:
